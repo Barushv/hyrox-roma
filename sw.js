@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hyrox-roma-v1'
+const CACHE_NAME = 'hyrox-roma-v2'
 const STATIC_ASSETS = [
   '/hyrox-roma/',
   '/hyrox-roma/index.html',
@@ -6,11 +6,11 @@ const STATIC_ASSETS = [
   '/hyrox-roma/manifest.json',
 ]
 
+// No llamamos skipWaiting() en install — esperamos la señal del usuario
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS))
   )
-  self.skipWaiting()
 })
 
 self.addEventListener('activate', (event) => {
@@ -22,8 +22,14 @@ self.addEventListener('activate', (event) => {
   self.clients.claim()
 })
 
+// El usuario toca "Actualizar" → la app envía este mensaje
+self.addEventListener('message', (event) => {
+  if (event.data?.type === 'SKIP_WAITING') {
+    self.skipWaiting()
+  }
+})
+
 self.addEventListener('fetch', (event) => {
-  const url = new URL(event.request.url)
   if (event.request.method !== 'GET') return
 
   event.respondWith(
