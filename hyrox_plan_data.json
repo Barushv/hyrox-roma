@@ -119,10 +119,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Continuo + Gym Tren Inferior",
-          "timeStr": "40 min running + gym",
+          "sessionType": "Z2 Continuo",
+          "timeStr": "40 min running",
           "sessionAm": "Carrera Z2",
-          "sessionPm": "Gym - Tren inferior",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -177,78 +177,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla trasera",
-              "series": "4 x 6",
-              "detalle": "65-70% del maximo - descanso 2 min",
-              "nota": "Tecnica perfecta antes de subir carga",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "3 x 10",
-              "detalle": "Peso moderado - gluteo apretado en la cima",
-              "nota": "Motor del sled push - prioritario siempre",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Bulgarian split squat",
-              "series": "3 x 8 c/lado",
-              "detalle": "Mancuerna o barra - torso erguido",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Romanian deadlift",
-              "series": "3 x 8",
-              "detalle": "Excentrico lento (bajar 3 seg) - isquios fuertes",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Walking lunge con mancuerna",
-              "series": "3 x 15m",
-              "detalle": "Mancuernas al costado - paso largo",
-              "nota": "Simula sandbag lunge de competencia",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Plancha frontal",
-              "series": "3 x 45 seg",
-              "detalle": "Cuerpo en linea - no hundir cadera",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Dead bug",
-              "series": "3 x 10 c/lado",
-              "detalle": "Espalda baja pegada al suelo - movimiento lento",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -614,10 +542,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Tempo Progresivo",
-          "timeStr": "30 min - ~5 km",
+          "sessionType": "Tempo Progresivo + Gym Tren Inferior",
+          "timeStr": "30 min running + gym",
           "sessionAm": "Tempo Z2 - Z3",
-          "sessionPm": "Movilidad suave",
+          "sessionPm": "Gym - Tren inferior + Core",
           "exercises": [
             {
               "bloque": "-----",
@@ -675,7 +603,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUNNING --",
+              "ejercicio": "-- GYM - Tren inferior + Core (Hyrox-especifico) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -683,28 +611,118 @@
               "color": "#F1F5F9"
             },
             {
-              "bloque": "Movilidad",
-              "ejercicio": "Estiramiento isquios",
-              "series": "30 seg c/lado",
-              "detalle": "Sentado - pierna extendida",
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 8",
+              "detalle": "Mancuerna o kettlebell pegada al pecho - control total",
+              "nota": "Base de fuerza sin sobrecargar antes del tempo del dia",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push (o prensa empujando)",
+              "series": "4 x 20m",
+              "detalle": "Peso ligero-moderado - pasos cortos y rapidos",
+              "nota": "Estacion Hyrox #2 - tecnica de empuje",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Step up con mancuerna",
+              "series": "3 x 10 c/lado",
+              "detalle": "Caja a la altura de la rodilla - subir con control",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Glute bridge a una pierna",
+              "series": "3 x 12 c/lado",
+              "detalle": "Cadera estable - no rotar",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Plancha lateral",
+              "series": "3 x 30 seg c/lado",
+              "detalle": "Cadera alta - linea recta",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Bird dog",
+              "series": "3 x 10 c/lado",
+              "detalle": "Estabilidad lumbar - movimiento lento",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
             },
             {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento cuadriceps",
-              "series": "30 seg c/lado",
-              "detalle": "De pie - talon al gluteo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Hip flexor stretch",
-              "series": "30 seg c/lado",
-              "detalle": "Rodilla en el suelo",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -712,7 +730,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre Negativo",
           "timeStr": "50-60 min - ~8-9 km",
           "sessionAm": "Long Run con split negativo",
@@ -789,51 +807,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            }
-          ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso Activo",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo o caminata 20 min muy suave.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
             }
           ]
         }
@@ -848,10 +821,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Continuo + Gym Tren Inferior",
-          "timeStr": "40 min running + gym",
+          "sessionType": "Z2 Continuo",
+          "timeStr": "40 min running",
           "sessionAm": "Carrera Z2",
-          "sessionPm": "Gym - Tren inferior",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -906,78 +879,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla trasera",
-              "series": "4 x 6",
-              "detalle": "65-70% del maximo - descanso 2 min",
-              "nota": "Tecnica perfecta antes de subir carga",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "3 x 10",
-              "detalle": "Peso moderado - gluteo apretado en la cima",
-              "nota": "Motor del sled push - prioritario siempre",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Bulgarian split squat",
-              "series": "3 x 8 c/lado",
-              "detalle": "Mancuerna o barra - torso erguido",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Romanian deadlift",
-              "series": "3 x 8",
-              "detalle": "Excentrico lento (bajar 3 seg) - isquios fuertes",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Walking lunge con mancuerna",
-              "series": "3 x 15m",
-              "detalle": "Mancuernas al costado - paso largo",
-              "nota": "Simula sandbag lunge de competencia",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Plancha frontal",
-              "series": "3 x 45 seg",
-              "detalle": "Cuerpo en linea - no hundir cadera",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Dead bug",
-              "series": "3 x 10 c/lado",
-              "detalle": "Espalda baja pegada al suelo - movimiento lento",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -1343,10 +1244,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Tempo Progresivo",
-          "timeStr": "30 min - ~5 km",
+          "sessionType": "Tempo Progresivo + Gym Tren Inferior",
+          "timeStr": "30 min running + gym",
           "sessionAm": "Tempo Z2 - Z3",
-          "sessionPm": "Movilidad suave",
+          "sessionPm": "Gym - Tren inferior + Core",
           "exercises": [
             {
               "bloque": "-----",
@@ -1404,7 +1305,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUNNING --",
+              "ejercicio": "-- GYM - Tren inferior + Core (Hyrox-especifico) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -1412,28 +1313,118 @@
               "color": "#F1F5F9"
             },
             {
-              "bloque": "Movilidad",
-              "ejercicio": "Estiramiento isquios",
-              "series": "30 seg c/lado",
-              "detalle": "Sentado - pierna extendida",
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 8",
+              "detalle": "Mancuerna o kettlebell pegada al pecho - control total",
+              "nota": "Base de fuerza sin sobrecargar antes del tempo del dia",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push (o prensa empujando)",
+              "series": "4 x 20m",
+              "detalle": "Peso ligero-moderado - pasos cortos y rapidos",
+              "nota": "Estacion Hyrox #2 - tecnica de empuje",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Step up con mancuerna",
+              "series": "3 x 10 c/lado",
+              "detalle": "Caja a la altura de la rodilla - subir con control",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Glute bridge a una pierna",
+              "series": "3 x 12 c/lado",
+              "detalle": "Cadera estable - no rotar",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Plancha lateral",
+              "series": "3 x 30 seg c/lado",
+              "detalle": "Cadera alta - linea recta",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Bird dog",
+              "series": "3 x 10 c/lado",
+              "detalle": "Estabilidad lumbar - movimiento lento",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
             },
             {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento cuadriceps",
-              "series": "30 seg c/lado",
-              "detalle": "De pie - talon al gluteo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Hip flexor stretch",
-              "series": "30 seg c/lado",
-              "detalle": "Rodilla en el suelo",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -1441,7 +1432,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre Negativo",
           "timeStr": "50-60 min - ~8-9 km",
           "sessionAm": "Long Run con split negativo",
@@ -1518,51 +1509,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            }
-          ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso Activo",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo o caminata 20 min muy suave.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
             }
           ]
         }
@@ -1577,10 +1523,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Continuo + Gym Tren Inferior",
-          "timeStr": "40 min running + gym",
+          "sessionType": "Z2 Continuo",
+          "timeStr": "40 min running",
           "sessionAm": "Carrera Z2",
-          "sessionPm": "Gym - Tren inferior",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -1635,78 +1581,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla trasera",
-              "series": "4 x 6",
-              "detalle": "65-70% del maximo - descanso 2 min",
-              "nota": "Tecnica perfecta antes de subir carga",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "3 x 10",
-              "detalle": "Peso moderado - gluteo apretado en la cima",
-              "nota": "Motor del sled push - prioritario siempre",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Bulgarian split squat",
-              "series": "3 x 8 c/lado",
-              "detalle": "Mancuerna o barra - torso erguido",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Romanian deadlift",
-              "series": "3 x 8",
-              "detalle": "Excentrico lento (bajar 3 seg) - isquios fuertes",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Walking lunge con mancuerna",
-              "series": "3 x 15m",
-              "detalle": "Mancuernas al costado - paso largo",
-              "nota": "Simula sandbag lunge de competencia",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Plancha frontal",
-              "series": "3 x 45 seg",
-              "detalle": "Cuerpo en linea - no hundir cadera",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Dead bug",
-              "series": "3 x 10 c/lado",
-              "detalle": "Espalda baja pegada al suelo - movimiento lento",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -2072,10 +1946,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Tempo Progresivo",
-          "timeStr": "30 min - ~5 km",
+          "sessionType": "Tempo Progresivo + Gym Tren Inferior",
+          "timeStr": "30 min running + gym",
           "sessionAm": "Tempo Z2 - Z3",
-          "sessionPm": "Movilidad suave",
+          "sessionPm": "Gym - Tren inferior + Core",
           "exercises": [
             {
               "bloque": "-----",
@@ -2133,7 +2007,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUNNING --",
+              "ejercicio": "-- GYM - Tren inferior + Core (Hyrox-especifico) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -2141,28 +2015,118 @@
               "color": "#F1F5F9"
             },
             {
-              "bloque": "Movilidad",
-              "ejercicio": "Estiramiento isquios",
-              "series": "30 seg c/lado",
-              "detalle": "Sentado - pierna extendida",
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 8",
+              "detalle": "Mancuerna o kettlebell pegada al pecho - control total",
+              "nota": "Base de fuerza sin sobrecargar antes del tempo del dia",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push (o prensa empujando)",
+              "series": "4 x 20m",
+              "detalle": "Peso ligero-moderado - pasos cortos y rapidos",
+              "nota": "Estacion Hyrox #2 - tecnica de empuje",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Step up con mancuerna",
+              "series": "3 x 10 c/lado",
+              "detalle": "Caja a la altura de la rodilla - subir con control",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Glute bridge a una pierna",
+              "series": "3 x 12 c/lado",
+              "detalle": "Cadera estable - no rotar",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Plancha lateral",
+              "series": "3 x 30 seg c/lado",
+              "detalle": "Cadera alta - linea recta",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Bird dog",
+              "series": "3 x 10 c/lado",
+              "detalle": "Estabilidad lumbar - movimiento lento",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
             },
             {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento cuadriceps",
-              "series": "30 seg c/lado",
-              "detalle": "De pie - talon al gluteo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Hip flexor stretch",
-              "series": "30 seg c/lado",
-              "detalle": "Rodilla en el suelo",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -2170,7 +2134,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre Negativo",
           "timeStr": "50-60 min - ~8-9 km",
           "sessionAm": "Long Run con split negativo",
@@ -2247,51 +2211,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            }
-          ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso Activo",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo o caminata 20 min muy suave.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
             }
           ]
         }
@@ -2306,10 +2225,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Continuo + Gym Tren Inferior",
-          "timeStr": "40 min running + gym",
+          "sessionType": "Z2 Continuo",
+          "timeStr": "40 min running",
           "sessionAm": "Carrera Z2",
-          "sessionPm": "Gym - Tren inferior",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -2364,78 +2283,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla trasera",
-              "series": "4 x 6",
-              "detalle": "65-70% del maximo - descanso 2 min",
-              "nota": "Tecnica perfecta antes de subir carga",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "3 x 10",
-              "detalle": "Peso moderado - gluteo apretado en la cima",
-              "nota": "Motor del sled push - prioritario siempre",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Bulgarian split squat",
-              "series": "3 x 8 c/lado",
-              "detalle": "Mancuerna o barra - torso erguido",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Romanian deadlift",
-              "series": "3 x 8",
-              "detalle": "Excentrico lento (bajar 3 seg) - isquios fuertes",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Walking lunge con mancuerna",
-              "series": "3 x 15m",
-              "detalle": "Mancuernas al costado - paso largo",
-              "nota": "Simula sandbag lunge de competencia",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Plancha frontal",
-              "series": "3 x 45 seg",
-              "detalle": "Cuerpo en linea - no hundir cadera",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Dead bug",
-              "series": "3 x 10 c/lado",
-              "detalle": "Espalda baja pegada al suelo - movimiento lento",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -2801,10 +2648,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Tempo Progresivo",
-          "timeStr": "30 min - ~5 km",
+          "sessionType": "Tempo Progresivo + Gym Tren Inferior",
+          "timeStr": "30 min running + gym",
           "sessionAm": "Tempo Z2 - Z3",
-          "sessionPm": "Movilidad suave",
+          "sessionPm": "Gym - Tren inferior + Core",
           "exercises": [
             {
               "bloque": "-----",
@@ -2862,7 +2709,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUNNING --",
+              "ejercicio": "-- GYM - Tren inferior + Core (Hyrox-especifico) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -2870,28 +2717,118 @@
               "color": "#F1F5F9"
             },
             {
-              "bloque": "Movilidad",
-              "ejercicio": "Estiramiento isquios",
-              "series": "30 seg c/lado",
-              "detalle": "Sentado - pierna extendida",
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 8",
+              "detalle": "Mancuerna o kettlebell pegada al pecho - control total",
+              "nota": "Base de fuerza sin sobrecargar antes del tempo del dia",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push (o prensa empujando)",
+              "series": "4 x 20m",
+              "detalle": "Peso ligero-moderado - pasos cortos y rapidos",
+              "nota": "Estacion Hyrox #2 - tecnica de empuje",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Step up con mancuerna",
+              "series": "3 x 10 c/lado",
+              "detalle": "Caja a la altura de la rodilla - subir con control",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Glute bridge a una pierna",
+              "series": "3 x 12 c/lado",
+              "detalle": "Cadera estable - no rotar",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Plancha lateral",
+              "series": "3 x 30 seg c/lado",
+              "detalle": "Cadera alta - linea recta",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Bird dog",
+              "series": "3 x 10 c/lado",
+              "detalle": "Estabilidad lumbar - movimiento lento",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
             },
             {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento cuadriceps",
-              "series": "30 seg c/lado",
-              "detalle": "De pie - talon al gluteo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Hip flexor stretch",
-              "series": "30 seg c/lado",
-              "detalle": "Rodilla en el suelo",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -2899,7 +2836,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre Negativo",
           "timeStr": "50-60 min - ~8-9 km",
           "sessionAm": "Long Run con split negativo",
@@ -2978,51 +2915,6 @@
               "color": "#F8FAFC"
             }
           ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso Activo",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo o caminata 20 min muy suave.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            }
-          ]
         }
       ]
     },
@@ -3035,10 +2927,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Largo + Gym Tren Inferior",
-          "timeStr": "50 min running + gym",
+          "sessionType": "Z2 Largo",
+          "timeStr": "50 min running",
           "sessionAm": "Base aerobica larga",
-          "sessionPm": "Gym - Tren inferior (carga alta)",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -3093,87 +2985,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior (carga alta) --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla trasera",
-              "series": "5 x 5",
-              "detalle": "75-80% del maximo - descanso 2 min",
-              "nota": "Semana de fuerza maxima",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "4 x 10",
-              "detalle": "Pausa 1 seg en la cima - mayor carga",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Bulgarian split squat",
-              "series": "4 x 10 c/lado",
-              "detalle": "Mas peso que Fase 1",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Romanian deadlift",
-              "series": "4 x 8",
-              "detalle": "Aumentar rango de movimiento - carga alta",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sandbag lunge",
-              "series": "3 x 50m",
-              "detalle": "O walking lunge pesado - simula la estacion Hyrox",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Box jump",
-              "series": "3 x 8",
-              "detalle": "Caer suave - potencia explosiva",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Pallof press",
-              "series": "3 x 12 c/lado",
-              "detalle": "Polea baja - resistir la rotacion",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Hollow body hold",
-              "series": "3 x 30 seg",
-              "detalle": "Espalda baja pegada al suelo",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -3521,10 +3332,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Compromised Run",
-          "timeStr": "3 x (1K + estacion)",
+          "sessionType": "Compromised Run + Gym Tren Inferior",
+          "timeStr": "~40 min running + gym",
           "sessionAm": "Especifico Hyrox",
-          "sessionPm": "Movilidad",
+          "sessionPm": "Gym - Tren inferior + Core (carga alta)",
           "exercises": [
             {
               "bloque": "-----",
@@ -3591,7 +3402,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUN --",
+              "ejercicio": "-- GYM - Tren inferior + Core (carga alta) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -3599,10 +3410,118 @@
               "color": "#F1F5F9"
             },
             {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 10",
+              "detalle": "Mas peso que Fase 1 - tempo controlado",
+              "nota": "",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push",
+              "series": "5 x 20m",
+              "detalle": "Peso moderado-alto - empuje potente",
+              "nota": "Subir carga vs Fase 1",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled pull (cuerda o arnes)",
+              "series": "3 x 20m",
+              "detalle": "Si no hay sled, sustituir por peso muerto rumano a una pierna",
+              "nota": "Estacion Hyrox #6",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Step up con mancuerna",
+              "series": "4 x 10 c/lado",
+              "detalle": "+ peso vs Fase 1",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Pallof press",
+              "series": "3 x 12 c/lado",
+              "detalle": "Polea o banda - resistir la rotacion",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Hollow body hold",
+              "series": "3 x 30 seg",
+              "detalle": "Espalda baja pegada al suelo",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
+              "nota": "",
+              "highlight": false,
+              "color": "#E1F5EE"
+            },
+            {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento completo",
-              "series": "10 min",
-              "detalle": "Isquios - cuadriceps - gemelos - cadera",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -3610,7 +3529,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre Z3",
           "timeStr": "65-75 min - ~10-11 km",
           "sessionAm": "Long Run con cierre mas fuerte",
@@ -3687,51 +3606,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            }
-          ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo. La Fase 2 es exigente - el domingo es sagrado.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
             }
           ]
         }
@@ -3746,10 +3620,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Largo + Gym Tren Inferior",
-          "timeStr": "50 min running + gym",
+          "sessionType": "Z2 Largo",
+          "timeStr": "50 min running",
           "sessionAm": "Base aerobica larga",
-          "sessionPm": "Gym - Tren inferior (carga alta)",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -3804,87 +3678,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior (carga alta) --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla trasera",
-              "series": "5 x 5",
-              "detalle": "75-80% del maximo - descanso 2 min",
-              "nota": "Semana de fuerza maxima",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "4 x 10",
-              "detalle": "Pausa 1 seg en la cima - mayor carga",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Bulgarian split squat",
-              "series": "4 x 10 c/lado",
-              "detalle": "Mas peso que Fase 1",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Romanian deadlift",
-              "series": "4 x 8",
-              "detalle": "Aumentar rango de movimiento - carga alta",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sandbag lunge",
-              "series": "3 x 50m",
-              "detalle": "O walking lunge pesado - simula la estacion Hyrox",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Box jump",
-              "series": "3 x 8",
-              "detalle": "Caer suave - potencia explosiva",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Pallof press",
-              "series": "3 x 12 c/lado",
-              "detalle": "Polea baja - resistir la rotacion",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Hollow body hold",
-              "series": "3 x 30 seg",
-              "detalle": "Espalda baja pegada al suelo",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -4232,10 +4025,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Compromised Run",
-          "timeStr": "3 x (1K + estacion)",
+          "sessionType": "Compromised Run + Gym Tren Inferior",
+          "timeStr": "~40 min running + gym",
           "sessionAm": "Especifico Hyrox",
-          "sessionPm": "Movilidad",
+          "sessionPm": "Gym - Tren inferior + Core (carga alta)",
           "exercises": [
             {
               "bloque": "-----",
@@ -4302,7 +4095,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUN --",
+              "ejercicio": "-- GYM - Tren inferior + Core (carga alta) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -4310,10 +4103,118 @@
               "color": "#F1F5F9"
             },
             {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 10",
+              "detalle": "Mas peso que Fase 1 - tempo controlado",
+              "nota": "",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push",
+              "series": "5 x 20m",
+              "detalle": "Peso moderado-alto - empuje potente",
+              "nota": "Subir carga vs Fase 1",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled pull (cuerda o arnes)",
+              "series": "3 x 20m",
+              "detalle": "Si no hay sled, sustituir por peso muerto rumano a una pierna",
+              "nota": "Estacion Hyrox #6",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Step up con mancuerna",
+              "series": "4 x 10 c/lado",
+              "detalle": "+ peso vs Fase 1",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Pallof press",
+              "series": "3 x 12 c/lado",
+              "detalle": "Polea o banda - resistir la rotacion",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Hollow body hold",
+              "series": "3 x 30 seg",
+              "detalle": "Espalda baja pegada al suelo",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
+              "nota": "",
+              "highlight": false,
+              "color": "#E1F5EE"
+            },
+            {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento completo",
-              "series": "10 min",
-              "detalle": "Isquios - cuadriceps - gemelos - cadera",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -4321,7 +4222,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre Z3",
           "timeStr": "65-75 min - ~10-11 km",
           "sessionAm": "Long Run con cierre mas fuerte",
@@ -4398,51 +4299,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            }
-          ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo. La Fase 2 es exigente - el domingo es sagrado.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
             }
           ]
         }
@@ -4457,10 +4313,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Largo + Gym Tren Inferior",
-          "timeStr": "50 min running + gym",
+          "sessionType": "Z2 Largo",
+          "timeStr": "50 min running",
           "sessionAm": "Base aerobica larga",
-          "sessionPm": "Gym - Tren inferior (carga alta)",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -4515,87 +4371,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior (carga alta) --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla trasera",
-              "series": "5 x 5",
-              "detalle": "75-80% del maximo - descanso 2 min",
-              "nota": "Semana de fuerza maxima",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "4 x 10",
-              "detalle": "Pausa 1 seg en la cima - mayor carga",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Bulgarian split squat",
-              "series": "4 x 10 c/lado",
-              "detalle": "Mas peso que Fase 1",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Romanian deadlift",
-              "series": "4 x 8",
-              "detalle": "Aumentar rango de movimiento - carga alta",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sandbag lunge",
-              "series": "3 x 50m",
-              "detalle": "O walking lunge pesado - simula la estacion Hyrox",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Box jump",
-              "series": "3 x 8",
-              "detalle": "Caer suave - potencia explosiva",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Pallof press",
-              "series": "3 x 12 c/lado",
-              "detalle": "Polea baja - resistir la rotacion",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Hollow body hold",
-              "series": "3 x 30 seg",
-              "detalle": "Espalda baja pegada al suelo",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -4943,10 +4718,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Compromised Run",
-          "timeStr": "3 x (1K + estacion)",
+          "sessionType": "Compromised Run + Gym Tren Inferior",
+          "timeStr": "~40 min running + gym",
           "sessionAm": "Especifico Hyrox",
-          "sessionPm": "Movilidad",
+          "sessionPm": "Gym - Tren inferior + Core (carga alta)",
           "exercises": [
             {
               "bloque": "-----",
@@ -5013,7 +4788,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUN --",
+              "ejercicio": "-- GYM - Tren inferior + Core (carga alta) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -5021,10 +4796,118 @@
               "color": "#F1F5F9"
             },
             {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 10",
+              "detalle": "Mas peso que Fase 1 - tempo controlado",
+              "nota": "",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push",
+              "series": "5 x 20m",
+              "detalle": "Peso moderado-alto - empuje potente",
+              "nota": "Subir carga vs Fase 1",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled pull (cuerda o arnes)",
+              "series": "3 x 20m",
+              "detalle": "Si no hay sled, sustituir por peso muerto rumano a una pierna",
+              "nota": "Estacion Hyrox #6",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Step up con mancuerna",
+              "series": "4 x 10 c/lado",
+              "detalle": "+ peso vs Fase 1",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Pallof press",
+              "series": "3 x 12 c/lado",
+              "detalle": "Polea o banda - resistir la rotacion",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Hollow body hold",
+              "series": "3 x 30 seg",
+              "detalle": "Espalda baja pegada al suelo",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
+              "nota": "",
+              "highlight": false,
+              "color": "#E1F5EE"
+            },
+            {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento completo",
-              "series": "10 min",
-              "detalle": "Isquios - cuadriceps - gemelos - cadera",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -5032,7 +4915,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre Z3",
           "timeStr": "65-75 min - ~10-11 km",
           "sessionAm": "Long Run con cierre mas fuerte",
@@ -5109,51 +4992,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            }
-          ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo. La Fase 2 es exigente - el domingo es sagrado.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
             }
           ]
         }
@@ -5168,10 +5006,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Largo + Gym Tren Inferior",
-          "timeStr": "50 min running + gym",
+          "sessionType": "Z2 Largo",
+          "timeStr": "50 min running",
           "sessionAm": "Base aerobica larga",
-          "sessionPm": "Gym - Tren inferior (carga alta)",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -5226,87 +5064,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior (carga alta) --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla trasera",
-              "series": "5 x 5",
-              "detalle": "75-80% del maximo - descanso 2 min",
-              "nota": "Semana de fuerza maxima",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "4 x 10",
-              "detalle": "Pausa 1 seg en la cima - mayor carga",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Bulgarian split squat",
-              "series": "4 x 10 c/lado",
-              "detalle": "Mas peso que Fase 1",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Romanian deadlift",
-              "series": "4 x 8",
-              "detalle": "Aumentar rango de movimiento - carga alta",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sandbag lunge",
-              "series": "3 x 50m",
-              "detalle": "O walking lunge pesado - simula la estacion Hyrox",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Box jump",
-              "series": "3 x 8",
-              "detalle": "Caer suave - potencia explosiva",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Pallof press",
-              "series": "3 x 12 c/lado",
-              "detalle": "Polea baja - resistir la rotacion",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Hollow body hold",
-              "series": "3 x 30 seg",
-              "detalle": "Espalda baja pegada al suelo",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -5654,10 +5411,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Compromised Run",
-          "timeStr": "3 x (1K + estacion)",
+          "sessionType": "Compromised Run + Gym Tren Inferior",
+          "timeStr": "~40 min running + gym",
           "sessionAm": "Especifico Hyrox",
-          "sessionPm": "Movilidad",
+          "sessionPm": "Gym - Tren inferior + Core (carga alta)",
           "exercises": [
             {
               "bloque": "-----",
@@ -5724,7 +5481,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUN --",
+              "ejercicio": "-- GYM - Tren inferior + Core (carga alta) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -5732,10 +5489,118 @@
               "color": "#F1F5F9"
             },
             {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 10",
+              "detalle": "Mas peso que Fase 1 - tempo controlado",
+              "nota": "",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push",
+              "series": "5 x 20m",
+              "detalle": "Peso moderado-alto - empuje potente",
+              "nota": "Subir carga vs Fase 1",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled pull (cuerda o arnes)",
+              "series": "3 x 20m",
+              "detalle": "Si no hay sled, sustituir por peso muerto rumano a una pierna",
+              "nota": "Estacion Hyrox #6",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Step up con mancuerna",
+              "series": "4 x 10 c/lado",
+              "detalle": "+ peso vs Fase 1",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Pallof press",
+              "series": "3 x 12 c/lado",
+              "detalle": "Polea o banda - resistir la rotacion",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Hollow body hold",
+              "series": "3 x 30 seg",
+              "detalle": "Espalda baja pegada al suelo",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
+              "nota": "",
+              "highlight": false,
+              "color": "#E1F5EE"
+            },
+            {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento completo",
-              "series": "10 min",
-              "detalle": "Isquios - cuadriceps - gemelos - cadera",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -5743,7 +5608,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre Z3",
           "timeStr": "65-75 min - ~10-11 km",
           "sessionAm": "Long Run con cierre mas fuerte",
@@ -5822,51 +5687,6 @@
               "color": "#F8FAFC"
             }
           ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo. La Fase 2 es exigente - el domingo es sagrado.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            }
-          ]
         }
       ]
     },
@@ -5879,10 +5699,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Mantenimiento + Gym Tren Inferior",
-          "timeStr": "45 min running + gym",
+          "sessionType": "Z2 Mantenimiento",
+          "timeStr": "45 min running",
           "sessionAm": "Base aerobica",
-          "sessionPm": "Gym - Tren inferior Hyrox-especifico",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -5937,78 +5757,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior (Hyrox especifico) --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla frontal",
-              "series": "4 x 8",
-              "detalle": "Barra o mancuernas - explosiva en la subida",
-              "nota": "Simula Wall Balls - misma mecanica",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "4 x 12",
-              "detalle": "Velocidad - potencia - gluteo contraido",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Wall balls",
-              "series": "3 x 20",
-              "detalle": "Pelota medicine 9 kg - target a 10 pies",
-              "nota": "Entrenamiento especifico Hyrox #5",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sandbag lunge",
-              "series": "3 x 50m",
-              "detalle": "Hyrox especifico - sin pausa",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Step up explosivo",
-              "series": "3 x 10 c/lado",
-              "detalle": "Caja 60cm - subir rapido - bajar controlado",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Hanging knee raise",
-              "series": "3 x 12",
-              "detalle": "Control total - no balancearse",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Ab wheel rollout",
-              "series": "3 x 10",
-              "detalle": "Extension completa - volver lento",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -6392,10 +6140,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Tempo Largo",
-          "timeStr": "35 min",
+          "sessionType": "Tempo Largo + Gym Tren Inferior",
+          "timeStr": "35 min running + gym",
           "sessionAm": "Umbral sostenido",
-          "sessionPm": "Movilidad",
+          "sessionPm": "Gym - Tren inferior + Core (Hyrox especifico)",
           "exercises": [
             {
               "bloque": "-----",
@@ -6444,7 +6192,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUN --",
+              "ejercicio": "-- GYM - Tren inferior + Core (Hyrox especifico) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -6452,28 +6200,118 @@
               "color": "#F1F5F9"
             },
             {
-              "bloque": "Movilidad",
-              "ejercicio": "Pigeon pose",
-              "series": "45 seg c/lado",
-              "detalle": "Apertura de cadera post-running",
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 10",
+              "detalle": "Velocidad en la subida - explosivo",
+              "nota": "",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push",
+              "series": "5 x 25m",
+              "detalle": "Peso de competencia si es posible",
+              "nota": "Maxima especificidad",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Wall balls",
+              "series": "3 x 20",
+              "detalle": "Pelota medicine - ritmo constante",
+              "nota": "Repaso tecnico antes del fin de semana",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sandbag lunge",
+              "series": "3 x 50m",
+              "detalle": "Sin pausa - simula competencia",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Hanging knee raise",
+              "series": "3 x 12",
+              "detalle": "Control total - no balancearse",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Ab wheel rollout",
+              "series": "3 x 10",
+              "detalle": "Extension completa - volver lento",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
             },
             {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento isquios",
-              "series": "30 seg c/lado",
-              "detalle": "Sentado - pierna extendida",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Pantorrillas",
-              "series": "30 seg c/lado",
-              "detalle": "Talon en el suelo - pared",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -6481,7 +6319,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre a Pace",
           "timeStr": "75-80 min - ~12-13 km",
           "sessionAm": "Long run con cierre al pace de carrera",
@@ -6549,51 +6387,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            }
-          ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo. La Fase 3 es la mas exigente - el domingo no es opcional.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
             }
           ]
         }
@@ -6608,10 +6401,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Mantenimiento + Gym Tren Inferior",
-          "timeStr": "45 min running + gym",
+          "sessionType": "Z2 Mantenimiento",
+          "timeStr": "45 min running",
           "sessionAm": "Base aerobica",
-          "sessionPm": "Gym - Tren inferior Hyrox-especifico",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -6666,78 +6459,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior (Hyrox especifico) --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla frontal",
-              "series": "4 x 8",
-              "detalle": "Barra o mancuernas - explosiva en la subida",
-              "nota": "Simula Wall Balls - misma mecanica",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "4 x 12",
-              "detalle": "Velocidad - potencia - gluteo contraido",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Wall balls",
-              "series": "3 x 20",
-              "detalle": "Pelota medicine 9 kg - target a 10 pies",
-              "nota": "Entrenamiento especifico Hyrox #5",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sandbag lunge",
-              "series": "3 x 50m",
-              "detalle": "Hyrox especifico - sin pausa",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Step up explosivo",
-              "series": "3 x 10 c/lado",
-              "detalle": "Caja 60cm - subir rapido - bajar controlado",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Hanging knee raise",
-              "series": "3 x 12",
-              "detalle": "Control total - no balancearse",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Ab wheel rollout",
-              "series": "3 x 10",
-              "detalle": "Extension completa - volver lento",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -7121,10 +6842,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Tempo Largo",
-          "timeStr": "35 min",
+          "sessionType": "Tempo Largo + Gym Tren Inferior",
+          "timeStr": "35 min running + gym",
           "sessionAm": "Umbral sostenido",
-          "sessionPm": "Movilidad",
+          "sessionPm": "Gym - Tren inferior + Core (Hyrox especifico)",
           "exercises": [
             {
               "bloque": "-----",
@@ -7173,7 +6894,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUN --",
+              "ejercicio": "-- GYM - Tren inferior + Core (Hyrox especifico) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -7181,28 +6902,118 @@
               "color": "#F1F5F9"
             },
             {
-              "bloque": "Movilidad",
-              "ejercicio": "Pigeon pose",
-              "series": "45 seg c/lado",
-              "detalle": "Apertura de cadera post-running",
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 10",
+              "detalle": "Velocidad en la subida - explosivo",
+              "nota": "",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push",
+              "series": "5 x 25m",
+              "detalle": "Peso de competencia si es posible",
+              "nota": "Maxima especificidad",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Wall balls",
+              "series": "3 x 20",
+              "detalle": "Pelota medicine - ritmo constante",
+              "nota": "Repaso tecnico antes del fin de semana",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sandbag lunge",
+              "series": "3 x 50m",
+              "detalle": "Sin pausa - simula competencia",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Hanging knee raise",
+              "series": "3 x 12",
+              "detalle": "Control total - no balancearse",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Ab wheel rollout",
+              "series": "3 x 10",
+              "detalle": "Extension completa - volver lento",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
             },
             {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento isquios",
-              "series": "30 seg c/lado",
-              "detalle": "Sentado - pierna extendida",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Pantorrillas",
-              "series": "30 seg c/lado",
-              "detalle": "Talon en el suelo - pared",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -7210,7 +7021,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre a Pace",
           "timeStr": "75-80 min - ~12-13 km",
           "sessionAm": "Long run con cierre al pace de carrera",
@@ -7278,51 +7089,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            }
-          ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo. La Fase 3 es la mas exigente - el domingo no es opcional.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
             }
           ]
         }
@@ -7337,10 +7103,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Mantenimiento + Gym Tren Inferior",
-          "timeStr": "45 min running + gym",
+          "sessionType": "Z2 Mantenimiento",
+          "timeStr": "45 min running",
           "sessionAm": "Base aerobica",
-          "sessionPm": "Gym - Tren inferior Hyrox-especifico",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -7395,78 +7161,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior (Hyrox especifico) --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla frontal",
-              "series": "4 x 8",
-              "detalle": "Barra o mancuernas - explosiva en la subida",
-              "nota": "Simula Wall Balls - misma mecanica",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "4 x 12",
-              "detalle": "Velocidad - potencia - gluteo contraido",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Wall balls",
-              "series": "3 x 20",
-              "detalle": "Pelota medicine 9 kg - target a 10 pies",
-              "nota": "Entrenamiento especifico Hyrox #5",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sandbag lunge",
-              "series": "3 x 50m",
-              "detalle": "Hyrox especifico - sin pausa",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Step up explosivo",
-              "series": "3 x 10 c/lado",
-              "detalle": "Caja 60cm - subir rapido - bajar controlado",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Hanging knee raise",
-              "series": "3 x 12",
-              "detalle": "Control total - no balancearse",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Ab wheel rollout",
-              "series": "3 x 10",
-              "detalle": "Extension completa - volver lento",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -7850,10 +7544,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Tempo Largo",
-          "timeStr": "35 min",
+          "sessionType": "Tempo Largo + Gym Tren Inferior",
+          "timeStr": "35 min running + gym",
           "sessionAm": "Umbral sostenido",
-          "sessionPm": "Movilidad",
+          "sessionPm": "Gym - Tren inferior + Core (Hyrox especifico)",
           "exercises": [
             {
               "bloque": "-----",
@@ -7902,7 +7596,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUN --",
+              "ejercicio": "-- GYM - Tren inferior + Core (Hyrox especifico) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -7910,28 +7604,118 @@
               "color": "#F1F5F9"
             },
             {
-              "bloque": "Movilidad",
-              "ejercicio": "Pigeon pose",
-              "series": "45 seg c/lado",
-              "detalle": "Apertura de cadera post-running",
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 10",
+              "detalle": "Velocidad en la subida - explosivo",
+              "nota": "",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push",
+              "series": "5 x 25m",
+              "detalle": "Peso de competencia si es posible",
+              "nota": "Maxima especificidad",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Wall balls",
+              "series": "3 x 20",
+              "detalle": "Pelota medicine - ritmo constante",
+              "nota": "Repaso tecnico antes del fin de semana",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sandbag lunge",
+              "series": "3 x 50m",
+              "detalle": "Sin pausa - simula competencia",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Hanging knee raise",
+              "series": "3 x 12",
+              "detalle": "Control total - no balancearse",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Ab wheel rollout",
+              "series": "3 x 10",
+              "detalle": "Extension completa - volver lento",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
             },
             {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento isquios",
-              "series": "30 seg c/lado",
-              "detalle": "Sentado - pierna extendida",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Pantorrillas",
-              "series": "30 seg c/lado",
-              "detalle": "Talon en el suelo - pared",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -7939,7 +7723,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre a Pace",
           "timeStr": "75-80 min - ~12-13 km",
           "sessionAm": "Long run con cierre al pace de carrera",
@@ -8007,51 +7791,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            }
-          ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo. La Fase 3 es la mas exigente - el domingo no es opcional.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
             }
           ]
         }
@@ -8066,10 +7805,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Z2 Mantenimiento + Gym Tren Inferior",
-          "timeStr": "45 min running + gym",
+          "sessionType": "Z2 Mantenimiento",
+          "timeStr": "45 min running",
           "sessionAm": "Base aerobica",
-          "sessionPm": "Gym - Tren inferior Hyrox-especifico",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -8124,78 +7863,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior (Hyrox especifico) --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla frontal",
-              "series": "4 x 8",
-              "detalle": "Barra o mancuernas - explosiva en la subida",
-              "nota": "Simula Wall Balls - misma mecanica",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "4 x 12",
-              "detalle": "Velocidad - potencia - gluteo contraido",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Wall balls",
-              "series": "3 x 20",
-              "detalle": "Pelota medicine 9 kg - target a 10 pies",
-              "nota": "Entrenamiento especifico Hyrox #5",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sandbag lunge",
-              "series": "3 x 50m",
-              "detalle": "Hyrox especifico - sin pausa",
-              "nota": "",
-              "highlight": true,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Step up explosivo",
-              "series": "3 x 10 c/lado",
-              "detalle": "Caja 60cm - subir rapido - bajar controlado",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Hanging knee raise",
-              "series": "3 x 12",
-              "detalle": "Control total - no balancearse",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Ab wheel rollout",
-              "series": "3 x 10",
-              "detalle": "Extension completa - volver lento",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -8579,10 +8246,10 @@
         },
         {
           "day": "Viernes",
-          "sessionType": "Tempo Largo",
-          "timeStr": "35 min",
+          "sessionType": "Tempo Largo + Gym Tren Inferior",
+          "timeStr": "35 min running + gym",
           "sessionAm": "Umbral sostenido",
-          "sessionPm": "Movilidad",
+          "sessionPm": "Gym - Tren inferior + Core (Hyrox especifico)",
           "exercises": [
             {
               "bloque": "-----",
@@ -8631,7 +8298,7 @@
             },
             {
               "bloque": "-----",
-              "ejercicio": "-- MOVILIDAD POST-RUN --",
+              "ejercicio": "-- GYM - Tren inferior + Core (Hyrox especifico) --",
               "series": "-",
               "detalle": "",
               "nota": "",
@@ -8639,28 +8306,118 @@
               "color": "#F1F5F9"
             },
             {
-              "bloque": "Movilidad",
-              "ejercicio": "Pigeon pose",
-              "series": "45 seg c/lado",
-              "detalle": "Apertura de cadera post-running",
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "4 x 10",
+              "detalle": "Velocidad en la subida - explosivo",
+              "nota": "",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push",
+              "series": "5 x 25m",
+              "detalle": "Peso de competencia si es posible",
+              "nota": "Maxima especificidad",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Wall balls",
+              "series": "3 x 20",
+              "detalle": "Pelota medicine - ritmo constante",
+              "nota": "Repaso tecnico antes del fin de semana",
+              "highlight": true,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sandbag lunge",
+              "series": "3 x 50m",
+              "detalle": "Sin pausa - simula competencia",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Hanging knee raise",
+              "series": "3 x 12",
+              "detalle": "Control total - no balancearse",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Ab wheel rollout",
+              "series": "3 x 10",
+              "detalle": "Extension completa - volver lento",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.",
+              "series": "-",
+              "detalle": "Es el equivalente a una sesion de calidad",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
             },
             {
               "bloque": "Movilidad",
-              "ejercicio": "Estiramiento isquios",
-              "series": "30 seg c/lado",
-              "detalle": "Sentado - pierna extendida",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Pantorrillas",
-              "series": "30 seg c/lado",
-              "detalle": "Talon en el suelo - pared",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
               "nota": "",
               "highlight": false,
               "color": "#E1F5EE"
@@ -8668,7 +8425,7 @@
           ]
         },
         {
-          "day": "Sabado",
+          "day": "Domingo",
           "sessionType": "Long Run + Cierre a Pace",
           "timeStr": "75-80 min - ~12-13 km",
           "sessionAm": "Long run con cierre al pace de carrera",
@@ -8738,51 +8495,6 @@
               "color": "#F8FAFC"
             }
           ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo. La Fase 3 es la mas exigente - el domingo no es opcional.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            }
-          ]
         }
       ]
     },
@@ -8795,10 +8507,10 @@
       "days": [
         {
           "day": "Lunes",
-          "sessionType": "Taper - Z2 Reducido + Gym",
-          "timeStr": "35 min running + gym taper",
+          "sessionType": "Taper - Z2 Reducido",
+          "timeStr": "35 min running",
           "sessionAm": "Reduccion de volumen",
-          "sessionPm": "Gym - Tren inferior (taper)",
+          "sessionPm": "",
           "exercises": [
             {
               "bloque": "-----",
@@ -8844,51 +8556,6 @@
               "nota": "",
               "highlight": false,
               "color": "#D1FAE5"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- GYM - Tren inferior (taper) --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Sentadilla trasera",
-              "series": "3 x 6",
-              "detalle": "70% del maximo - mantener fuerza sin fatigar",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Hip thrust",
-              "series": "3 x 8",
-              "detalle": "Peso normal - no forzar",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Tren inferior",
-              "ejercicio": "Bulgarian split squat",
-              "series": "2 x 8 c/lado",
-              "detalle": "Peso reducido - foco en tecnica",
-              "nota": "",
-              "highlight": false,
-              "color": "#EAF3DE"
-            },
-            {
-              "bloque": "Core",
-              "ejercicio": "Plancha",
-              "series": "2 x 45 seg",
-              "detalle": "Suave - solo activacion",
-              "nota": "",
-              "highlight": false,
-              "color": "#EEEDFE"
             }
           ]
         },
@@ -9128,10 +8795,10 @@
         },
         {
           "day": "Jueves",
-          "sessionType": "Taper - Compromised Run Ligero",
-          "timeStr": "2x1K + 1 estacion",
+          "sessionType": "Taper - Compromised Run Ligero + Gym",
+          "timeStr": "2x1K + 1 estacion + gym taper",
           "sessionAm": "Hyrox especifico taper",
-          "sessionPm": "",
+          "sessionPm": "Gym - Tren inferior + Core (taper)",
           "exercises": [
             {
               "bloque": "-----",
@@ -9186,6 +8853,42 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- GYM - Tren inferior + Core (taper) --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sentadilla goblet",
+              "series": "3 x 8",
+              "detalle": "Peso ligero - solo mantener patron",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Tren inferior",
+              "ejercicio": "Sled push",
+              "series": "3 x 20m",
+              "detalle": "Peso ligero - tecnica, no fatiga",
+              "nota": "",
+              "highlight": false,
+              "color": "#EAF3DE"
+            },
+            {
+              "bloque": "Core",
+              "ejercicio": "Plancha lateral",
+              "series": "2 x 30 seg c/lado",
+              "detalle": "Suave - solo activacion",
+              "nota": "",
+              "highlight": false,
+              "color": "#EEEDFE"
             }
           ]
         },
@@ -9272,6 +8975,69 @@
         },
         {
           "day": "Sabado",
+          "sessionType": "Hyrox WOD (sin running adicional)",
+          "timeStr": "Clase Hyrox",
+          "sessionAm": "WOD Hyrox - runs + estaciones",
+          "sessionPm": "",
+          "exercises": [
+            {
+              "bloque": "Regla",
+              "ejercicio": "Mismo criterio que el resto del plan: el WOD ya incluye running. No se agrega volumen extra esta semana de taper.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": true,
+              "color": "#FCEBEB"
+            },
+            {
+              "bloque": "Sesion",
+              "ejercicio": "Hyrox WOD",
+              "series": "Segun clase",
+              "detalle": "Mantener tecnica. No buscar PRs esta semana - es taper.",
+              "nota": "",
+              "highlight": false,
+              "color": "#FFFFFF"
+            },
+            {
+              "bloque": "Instruccion",
+              "ejercicio": "Llegar fresco al Long Run corto del domingo.",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F8FAFC"
+            },
+            {
+              "bloque": "-----",
+              "ejercicio": "-- RECUPERACION ACTIVA --",
+              "series": "-",
+              "detalle": "",
+              "nota": "",
+              "highlight": false,
+              "color": "#F1F5F9"
+            },
+            {
+              "bloque": "Foam roller",
+              "ejercicio": "Foam roller completo",
+              "series": "15-20 min",
+              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
+              "nota": "",
+              "highlight": false,
+              "color": "#E1F5EE"
+            },
+            {
+              "bloque": "Movilidad",
+              "ejercicio": "Caminata suave",
+              "series": "20-30 min",
+              "detalle": "Opcional - paso normal - sin esfuerzo",
+              "nota": "",
+              "highlight": false,
+              "color": "#E1F5EE"
+            }
+          ]
+        },
+        {
+          "day": "Domingo",
           "sessionType": "Taper - Long Run Corto",
           "timeStr": "45 min Z2",
           "sessionAm": "Long run taper",
@@ -9321,51 +9087,6 @@
               "nota": "",
               "highlight": false,
               "color": "#F8FAFC"
-            }
-          ]
-        },
-        {
-          "day": "Domingo",
-          "sessionType": "Descanso",
-          "timeStr": "Sin entrenar",
-          "sessionAm": "",
-          "sessionPm": "",
-          "exercises": [
-            {
-              "bloque": "Descanso",
-              "ejercicio": "Sin entrenamiento",
-              "series": "-",
-              "detalle": "Descanso completo.",
-              "nota": "",
-              "highlight": true,
-              "color": "#FCEBEB"
-            },
-            {
-              "bloque": "-----",
-              "ejercicio": "-- RECUPERACION ACTIVA --",
-              "series": "-",
-              "detalle": "",
-              "nota": "",
-              "highlight": false,
-              "color": "#F1F5F9"
-            },
-            {
-              "bloque": "Foam roller",
-              "ejercicio": "Foam roller completo",
-              "series": "15-20 min",
-              "detalle": "Cuadriceps - gluteos - espalda - pantorrillas",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
-            },
-            {
-              "bloque": "Movilidad",
-              "ejercicio": "Caminata suave",
-              "series": "20-30 min",
-              "detalle": "Opcional - paso normal - sin esfuerzo",
-              "nota": "",
-              "highlight": false,
-              "color": "#E1F5EE"
             }
           ]
         }
