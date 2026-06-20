@@ -3,29 +3,40 @@ import PropTypes from "prop-types";
 import { AppProvider, useApp } from "./context/AppContext";
 import ProfileSelector from "./components/ProfileSelector";
 import NavBar from "./components/NavBar";
+import UpdatePrompt from "./components/UpdatePrompt";
 import HomeScreen from "./screens/HomeScreen";
 import WeekScreen from "./screens/WeekScreen";
 import DayScreen from "./screens/DayScreen";
 import TestsScreen from "./screens/TestsScreen";
 import ProfileScreen from "./screens/ProfileScreen";
+import { useServiceWorker } from "./hooks/useServiceWorker";
 
 function AppContent() {
   const { activeProfileId } = useApp();
   const [tab, setTab] = useState("home");
   const [weekNav, setWeekNav] = useState(null);
-  const [dayView, setDayView] = useState(null); // { week, day }
+  const [dayView, setDayView] = useState(null);
+  const { updateAvailable, applyUpdate } = useServiceWorker();
 
   if (!activeProfileId) {
-    return <ProfileSelector />;
+    return (
+      <>
+        {updateAvailable && <UpdatePrompt onUpdate={applyUpdate} />}
+        <ProfileSelector />
+      </>
+    );
   }
 
   if (dayView) {
     return (
-      <DayScreen
-        weekNum={dayView.week}
-        dayIndex={dayView.day}
-        onBack={() => setDayView(null)}
-      />
+      <>
+        {updateAvailable && <UpdatePrompt onUpdate={applyUpdate} />}
+        <DayScreen
+          weekNum={dayView.week}
+          dayIndex={dayView.day}
+          onBack={() => setDayView(null)}
+        />
+      </>
     );
   }
 
@@ -45,6 +56,7 @@ function AppContent() {
 
   return (
     <>
+      {updateAvailable && <UpdatePrompt onUpdate={applyUpdate} />}
       <main className="max-w-lg mx-auto">
         {tab === "home" && (
           <HomeScreen

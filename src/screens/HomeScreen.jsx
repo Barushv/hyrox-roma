@@ -18,10 +18,10 @@ export default function HomeScreen({ onNavigateWeek, onOpenDay }) {
   const phaseColor = PHASE_COLORS[weekData.phase] || '#185FA5'
 
   const startDate = planData.meta.startDate
-  const raceDate = new Date('2026-09-26')
+  const raceDate = new Date(2026, 8, 26) // 26 sep 2026, hora local
   const todayDate = new Date(today)
   todayDate.setHours(0, 0, 0, 0)
-  const daysLeft = Math.max(0, Math.ceil((raceDate - todayDate) / (1000 * 60 * 60 * 24)))
+  const daysLeft = Math.max(0, Math.floor((raceDate - todayDate) / (1000 * 60 * 60 * 24)))
 
   return (
     <div className="pb-24">
