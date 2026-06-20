@@ -131,42 +131,6 @@ const martesGym = {
   ]
 }
 
-const viernesGym = {
-  1: [
-    sep('GYM - Tren inferior + Core (Hyrox-especifico)'),
-    gym('Tren inferior', 'Sentadilla goblet', '4 x 8', 'Mancuerna o kettlebell pegada al pecho - control total', 'Base de fuerza sin sobrecargar antes del tempo del dia'),
-    gym('Tren inferior', 'Sled push (o prensa empujando)', '4 x 20m', 'Peso ligero-moderado - pasos cortos y rapidos', 'Estacion Hyrox #2 - tecnica de empuje', true),
-    gym('Tren inferior', 'Step up con mancuerna', '3 x 10 c/lado', 'Caja a la altura de la rodilla - subir con control'),
-    gym('Tren inferior', 'Glute bridge a una pierna', '3 x 12 c/lado', 'Cadera estable - no rotar'),
-    core('Plancha lateral', '3 x 30 seg c/lado', 'Cadera alta - linea recta'),
-    core('Bird dog', '3 x 10 c/lado', 'Estabilidad lumbar - movimiento lento')
-  ],
-  2: [
-    sep('GYM - Tren inferior + Core (carga alta)'),
-    gym('Tren inferior', 'Sentadilla goblet', '4 x 10', 'Mas peso que Fase 1 - tempo controlado', '', true),
-    gym('Tren inferior', 'Sled push', '5 x 20m', 'Peso moderado-alto - empuje potente', 'Subir carga vs Fase 1', true),
-    gym('Tren inferior', 'Sled pull (cuerda o arnes)', '3 x 20m', 'Si no hay sled, sustituir por peso muerto rumano a una pierna', 'Estacion Hyrox #6'),
-    gym('Tren inferior', 'Step up con mancuerna', '4 x 10 c/lado', '+ peso vs Fase 1'),
-    core('Pallof press', '3 x 12 c/lado', 'Polea o banda - resistir la rotacion'),
-    core('Hollow body hold', '3 x 30 seg', 'Espalda baja pegada al suelo')
-  ],
-  3: [
-    sep('GYM - Tren inferior + Core (Hyrox especifico)'),
-    gym('Tren inferior', 'Sentadilla goblet', '4 x 10', 'Velocidad en la subida - explosivo', '', true),
-    gym('Tren inferior', 'Sled push', '5 x 25m', 'Peso de competencia si es posible', 'Maxima especificidad', true),
-    gym('Tren inferior', 'Wall balls', '3 x 20', 'Pelota medicine - ritmo constante', 'Repaso tecnico antes del fin de semana', true),
-    gym('Tren inferior', 'Sandbag lunge', '3 x 50m', 'Sin pausa - simula competencia'),
-    core('Hanging knee raise', '3 x 12', 'Control total - no balancearse'),
-    core('Ab wheel rollout', '3 x 10', 'Extension completa - volver lento')
-  ],
-  4: [
-    sep('GYM - Tren inferior + Core (taper)'),
-    gym('Tren inferior', 'Sentadilla goblet', '3 x 8', 'Peso ligero - solo mantener patron'),
-    gym('Tren inferior', 'Sled push', '3 x 20m', 'Peso ligero - tecnica, no fatiga'),
-    core('Plancha lateral', '2 x 30 seg c/lado', 'Suave - solo activacion')
-  ]
-}
-
 const miercolesGym = [
   sep('MOVILIDAD Y RECUPERACION'),
   foam('Cuadriceps', '2 min c/lado', 'Rodar lento - parar en puntos de tension'),
@@ -193,10 +157,10 @@ function buildPhaseDays(phaseNum) {
 
   return runDays.map((d, i) => {
     const exercises = [...d.exercises]
-    if (i === 1) exercises.push(...martesGym[phaseNum])
+    if (i === 0) exercises.push(...lunesGym[phaseNum])
+    else if (i === 1) exercises.push(...martesGym[phaseNum])
     else if (i === 2) exercises.push(...miercolesGym)
-    else if (i === 4) exercises.push(...viernesGym[phaseNum])
-    else if (i === 5) exercises.push(...domingoMob)
+    else if (i === 6) exercises.push(...domingoMob)
     return { ...d, exercises }
   })
 }
@@ -205,8 +169,8 @@ function buildPhaseDays(phaseNum) {
 function phase1Running() {
   return [
     {
-      day: 'Lunes', sessionType: 'Z2 Continuo', timeStr: '40 min running',
-      sessionAm: 'Carrera Z2', sessionPm: '',
+      day: 'Lunes', sessionType: 'Z2 Continuo + Gym Tren Inferior', timeStr: '40 min running + gym',
+      sessionAm: 'Carrera Z2', sessionPm: 'Gym - Tren inferior',
       exercises: [
         sep('RUNNING - Base aerobica'),
         regla('Si no puedes hablar con oraciones completas mientras corres, vas demasiado rapido', 'Bajar el ritmo sin dudar'),
@@ -253,28 +217,23 @@ function phase1Running() {
       ]
     },
     {
-      day: 'Viernes', sessionType: 'Tempo Progresivo + Gym Tren Inferior', timeStr: '30 min running + gym',
-      sessionAm: 'Tempo Z2 - Z3', sessionPm: 'Gym - Tren inferior + Core',
+      day: 'Viernes', sessionType: 'Tempo Progresivo', timeStr: '30 min - ~5 km',
+      sessionAm: 'Tempo Z2 - Z3', sessionPm: 'Movilidad suave',
       exercises: [
         sep('RUNNING - Tempo'),
         sesion('Tempo Progresivo', '30 min - ~5 km', '10 min Z2 - 10 min Z3 - 10 min Z2'),
         estructura('10 min Z2 calentamiento - 10 min Z3 sostenido - 10 min Z2 cooldown'),
         { bloque: 'FC Israel - 10 min Z3', ejercicio: `Z3 - ${FC.israel.z3}`, series: '10 min tempo', detalle: 'Israel', nota: '', highlight: false, color: C.fcIsrael },
         { bloque: 'FC Andrea - 10 min Z3', ejercicio: `Z3 - ${FC.andrea.z3}`, series: '10 min tempo', detalle: 'Andrea', nota: '', highlight: false, color: C.fcAndrea },
-        instr('No empujen el tramo Z3. Debe sentirse incomodo pero sostenible.')
+        instr('No empujen el tramo Z3. Debe sentirse incomodo pero sostenible.'),
+        sep('MOVILIDAD POST-RUNNING'),
+        mob('Estiramiento isquios', '30 seg c/lado', 'Sentado - pierna extendida'),
+        mob('Estiramiento cuadriceps', '30 seg c/lado', 'De pie - talon al gluteo'),
+        mob('Hip flexor stretch', '30 seg c/lado', 'Rodilla en el suelo')
       ]
     },
     {
-      day: 'Sabado', sessionType: 'Hyrox WOD (sin running adicional)', timeStr: 'Clase Hyrox',
-      sessionAm: 'WOD Hyrox - runs + estaciones', sessionPm: '',
-      exercises: [
-        regla('El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.', 'Es el equivalente a una sesion de calidad'),
-        sesion('Hyrox WOD', 'Segun clase', 'Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.'),
-        instr('Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.')
-      ]
-    },
-    {
-      day: 'Domingo', sessionType: 'Long Run + Cierre Negativo', timeStr: '50-60 min - ~8-9 km',
+      day: 'Sabado', sessionType: 'Long Run + Cierre Negativo', timeStr: '50-60 min - ~8-9 km',
       sessionAm: 'Long Run con split negativo', sessionPm: '',
       exercises: [
         sep('RUNNING - Long Run'),
@@ -286,6 +245,13 @@ function phase1Running() {
         { bloque: 'FC Andrea - Cierre Z3', ejercicio: `Z3 - ${FC.andrea.z3}`, series: 'Ultimos 5 min', detalle: 'Andrea', nota: '', highlight: true, color: C.fcAndrea },
         instr('Split negativo = terminar mas rapido. Los ultimos 5 min suben un escalon de FC - no un sprint.')
       ]
+    },
+    {
+      day: 'Domingo', sessionType: 'Descanso Activo', timeStr: 'Sin entrenar',
+      sessionAm: '', sessionPm: '',
+      exercises: [
+        { bloque: 'Descanso', ejercicio: 'Sin entrenamiento', series: '-', detalle: 'Descanso completo o caminata 20 min muy suave.', nota: '', highlight: true, color: C.rule }
+      ]
     }
   ]
 }
@@ -294,8 +260,8 @@ function phase1Running() {
 function phase2Running() {
   return [
     {
-      day: 'Lunes', sessionType: 'Z2 Largo', timeStr: '50 min running',
-      sessionAm: 'Base aerobica larga', sessionPm: '',
+      day: 'Lunes', sessionType: 'Z2 Largo + Gym Tren Inferior', timeStr: '50 min running + gym',
+      sessionAm: 'Base aerobica larga', sessionPm: 'Gym - Tren inferior (carga alta)',
       exercises: [
         sep('RUNNING - Base aerobica larga'),
         regla('En los intervalos, pace objetivo 4:20-4:30/km. Si FC se dispara a Z5, bajar a 4:40.', 'La FC manda sobre el reloj'),
@@ -340,8 +306,8 @@ function phase2Running() {
       ]
     },
     {
-      day: 'Viernes', sessionType: 'Compromised Run + Gym Tren Inferior', timeStr: '~40 min running + gym',
-      sessionAm: 'Especifico Hyrox', sessionPm: 'Gym - Tren inferior + Core (carga alta)',
+      day: 'Viernes', sessionType: 'Compromised Run', timeStr: '3 x (1K + estacion)',
+      sessionAm: 'Especifico Hyrox', sessionPm: 'Movilidad',
       exercises: [
         sep('RUNNING - Compromised Run'),
         regla('Correr 1K e inmediatamente ejecutar una estacion Hyrox - sin pausa. Asi se gana tiempo en Hyrox.'),
@@ -349,20 +315,13 @@ function phase2Running() {
         estructura('Rep 1: 1K + 20 Wall Balls - Rep 2: 1K + 50m Sandbag Lunge - Rep 3: 1K + 20 Farmers Carry (rotar c/semana)'),
         { bloque: 'FC Israel - en 1K', ejercicio: `Z4 - ${FC.israel.z4}`, series: 'Cada km', detalle: 'Israel - pace 4:30-4:45/km', nota: '', highlight: false, color: C.fcIsrael },
         { bloque: 'FC Andrea - en 1K', ejercicio: `Z4 - ${FC.andrea.z4}`, series: 'Cada km', detalle: 'Andrea - pace 4:30-4:45/km', nota: '', highlight: false, color: C.fcAndrea },
-        instr('El objetivo no es el tiempo de la estacion sino retomar el pace de carrera inmediatamente.')
+        instr('El objetivo no es el tiempo de la estacion sino retomar el pace de carrera inmediatamente.'),
+        sep('MOVILIDAD POST-RUN'),
+        mob('Estiramiento completo', '10 min', 'Isquios - cuadriceps - gemelos - cadera')
       ]
     },
     {
-      day: 'Sabado', sessionType: 'Hyrox WOD (sin running adicional)', timeStr: 'Clase Hyrox',
-      sessionAm: 'WOD Hyrox - runs + estaciones', sessionPm: '',
-      exercises: [
-        regla('El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.', 'Es el equivalente a una sesion de calidad'),
-        sesion('Hyrox WOD', 'Segun clase', 'Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.'),
-        instr('Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.')
-      ]
-    },
-    {
-      day: 'Domingo', sessionType: 'Long Run + Cierre Z3', timeStr: '65-75 min - ~10-11 km',
+      day: 'Sabado', sessionType: 'Long Run + Cierre Z3', timeStr: '65-75 min - ~10-11 km',
       sessionAm: 'Long Run con cierre mas fuerte', sessionPm: '',
       exercises: [
         sep('RUNNING - Long Run Fase 2'),
@@ -374,6 +333,13 @@ function phase2Running() {
         { bloque: 'FC Andrea - Cierre Z3', ejercicio: `Z3 - ${FC.andrea.z3}`, series: 'Ultimos 10 min', detalle: 'Andrea - 10 min vs 5 min en Fase 1', nota: '', highlight: true, color: C.fcAndrea },
         instr('Cierre de 10 min (vs 5 en Fase 1). La progresion es la adaptacion.')
       ]
+    },
+    {
+      day: 'Domingo', sessionType: 'Descanso', timeStr: 'Sin entrenar',
+      sessionAm: '', sessionPm: '',
+      exercises: [
+        { bloque: 'Descanso', ejercicio: 'Sin entrenamiento', series: '-', detalle: 'Descanso completo. La Fase 2 es exigente - el domingo es sagrado.', nota: '', highlight: true, color: C.rule }
+      ]
     }
   ]
 }
@@ -382,8 +348,8 @@ function phase2Running() {
 function phase3Running() {
   return [
     {
-      day: 'Lunes', sessionType: 'Z2 Mantenimiento', timeStr: '45 min running',
-      sessionAm: 'Base aerobica', sessionPm: '',
+      day: 'Lunes', sessionType: 'Z2 Mantenimiento + Gym Tren Inferior', timeStr: '45 min running + gym',
+      sessionAm: 'Base aerobica', sessionPm: 'Gym - Tren inferior Hyrox-especifico',
       exercises: [
         sep('RUNNING - Mantenimiento aerobico'),
         regla('Los dias duros son muy duros. Los dias faciles son muy faciles. No existe el termino medio.', 'La clave del metodo keniano'),
@@ -432,27 +398,22 @@ function phase3Running() {
       ]
     },
     {
-      day: 'Viernes', sessionType: 'Tempo Largo + Gym Tren Inferior', timeStr: '35 min running + gym',
-      sessionAm: 'Umbral sostenido', sessionPm: 'Gym - Tren inferior + Core (Hyrox especifico)',
+      day: 'Viernes', sessionType: 'Tempo Largo', timeStr: '35 min',
+      sessionAm: 'Umbral sostenido', sessionPm: 'Movilidad',
       exercises: [
         sep('RUNNING - Tempo Largo'),
         sesion('Tempo Largo', '35 min total', '5 min Z2 - 25 min sostenido Z3-Z4 - 5 min Z1 cooldown'),
         { bloque: 'FC Israel - 25 min Z3-Z4', ejercicio: `Z3-Z4 - ${FC.israel.z3} > ${FC.israel.z4}`, series: '25 min', detalle: 'Israel - pace ~4:45-5:10/km', nota: '', highlight: false, color: C.fcIsrael },
         { bloque: 'FC Andrea - 25 min Z3-Z4', ejercicio: `Z3-Z4 - ${FC.andrea.z3} > ${FC.andrea.z4}`, series: '25 min', detalle: 'Andrea - pace ~4:45-5:10/km', nota: '', highlight: false, color: C.fcAndrea },
-        instr('25 min sostenidos en Z3-Z4. Si no pueden mantener, bajar a Z3 bajo.')
+        instr('25 min sostenidos en Z3-Z4. Si no pueden mantener, bajar a Z3 bajo.'),
+        sep('MOVILIDAD POST-RUN'),
+        mob('Pigeon pose', '45 seg c/lado', 'Apertura de cadera post-running'),
+        mob('Estiramiento isquios', '30 seg c/lado', 'Sentado - pierna extendida'),
+        mob('Pantorrillas', '30 seg c/lado', 'Talon en el suelo - pared')
       ]
     },
     {
-      day: 'Sabado', sessionType: 'Hyrox WOD (sin running adicional)', timeStr: 'Clase Hyrox',
-      sessionAm: 'WOD Hyrox - runs + estaciones', sessionPm: '',
-      exercises: [
-        regla('El WOD del sabado ya incluye corridas de 500m + sleds + farmers + wall balls. No se agrega running extra este dia.', 'Es el equivalente a una sesion de calidad'),
-        sesion('Hyrox WOD', 'Segun clase', 'Runs cortos + estaciones de fuerza. Foco en tecnica y mantener pace en los runs del WOD.'),
-        instr('Llegar con piernas relativamente frescas para el Long Run del domingo - no forzar extra hoy.')
-      ]
-    },
-    {
-      day: 'Domingo', sessionType: 'Long Run + Cierre a Pace', timeStr: '75-80 min - ~12-13 km',
+      day: 'Sabado', sessionType: 'Long Run + Cierre a Pace', timeStr: '75-80 min - ~12-13 km',
       sessionAm: 'Long run con cierre al pace de carrera', sessionPm: '',
       exercises: [
         sep('RUNNING - Long Run Fase 3'),
@@ -463,6 +424,13 @@ function phase3Running() {
         { bloque: 'FC Andrea - Cierre Pace', ejercicio: `Z3-Z4 - ${FC.andrea.z3} > ${FC.andrea.z4}`, series: 'Ultimos 15 min', detalle: 'Andrea - el cierre mas largo del plan', nota: '', highlight: true, color: C.fcAndrea },
         instr('Los ultimos 15 min al pace de carrera simulan el final de Hyrox con piernas cargadas.')
       ]
+    },
+    {
+      day: 'Domingo', sessionType: 'Descanso', timeStr: 'Sin entrenar',
+      sessionAm: '', sessionPm: '',
+      exercises: [
+        { bloque: 'Descanso', ejercicio: 'Sin entrenamiento', series: '-', detalle: 'Descanso completo. La Fase 3 es la mas exigente - el domingo no es opcional.', nota: '', highlight: true, color: C.rule }
+      ]
     }
   ]
 }
@@ -471,13 +439,14 @@ function phase3Running() {
 function phase4Week13() {
   return [
     {
-      day: 'Lunes', sessionType: 'Taper - Z2 Reducido', timeStr: '35 min running',
-      sessionAm: 'Reduccion de volumen', sessionPm: '',
+      day: 'Lunes', sessionType: 'Taper - Z2 Reducido + Gym', timeStr: '35 min running + gym taper',
+      sessionAm: 'Reduccion de volumen', sessionPm: 'Gym - Tren inferior (taper)',
       exercises: [
         sep('RUNNING - Taper'),
         regla('Menos kilometros, misma intensidad. El trabajo ya esta hecho.'),
         sesion('Z2 - 35 min', '35 min - ~5 km', 'Mantener la sensacion sin acumular fatiga.'),
-        ...fcRow('z2', 'z2', 'Z2', 'Base aerobica')
+        ...fcRow('z2', 'z2', 'Z2', 'Base aerobica'),
+        ...lunesGym[4]
       ]
     },
     {
@@ -504,16 +473,15 @@ function phase4Week13() {
       ]
     },
     {
-      day: 'Jueves', sessionType: 'Taper - Compromised Run Ligero + Gym', timeStr: '2x1K + 1 estacion + gym taper',
-      sessionAm: 'Hyrox especifico taper', sessionPm: 'Gym - Tren inferior + Core (taper)',
+      day: 'Jueves', sessionType: 'Taper - Compromised Run Ligero', timeStr: '2x1K + 1 estacion',
+      sessionAm: 'Hyrox especifico taper', sessionPm: '',
       exercises: [
         sep('RUNNING - Compromised Run Taper'),
         sesion('Compromised Run Taper', '2 x (1K + 1 estacion)', 'Version ligera: 2 en vez de 3 rondas.'),
         estructura('2 x (1 km a 4:30/km + 1 estacion a eleccion)'),
         { bloque: 'FC Israel', ejercicio: `Z4 - ${FC.israel.z4}`, series: '2 km', detalle: 'Israel', nota: '', highlight: false, color: C.fcIsrael },
         { bloque: 'FC Andrea', ejercicio: `Z4 - ${FC.andrea.z4}`, series: '2 km', detalle: 'Andrea', nota: '', highlight: false, color: C.fcAndrea },
-        instr('Mantener la sensacion especifica sin fatiga. Llegar activos pero frescos.'),
-        ...viernesGym[4]
+        instr('Mantener la sensacion especifica sin fatiga. Llegar activos pero frescos.')
       ]
     },
     {
@@ -530,23 +498,21 @@ function phase4Week13() {
       ]
     },
     {
-      day: 'Sabado', sessionType: 'Hyrox WOD (sin running adicional)', timeStr: 'Clase Hyrox',
-      sessionAm: 'WOD Hyrox - runs + estaciones', sessionPm: '',
-      exercises: [
-        regla('Mismo criterio que el resto del plan: el WOD ya incluye running. No se agrega volumen extra esta semana de taper.'),
-        sesion('Hyrox WOD', 'Segun clase', 'Mantener tecnica. No buscar PRs esta semana - es taper.'),
-        instr('Llegar fresco al Long Run corto del domingo.'),
-        ...domingoMob
-      ]
-    },
-    {
-      day: 'Domingo', sessionType: 'Taper - Long Run Corto', timeStr: '45 min Z2',
+      day: 'Sabado', sessionType: 'Taper - Long Run Corto', timeStr: '45 min Z2',
       sessionAm: 'Long run taper', sessionPm: '',
       exercises: [
         sep('RUNNING - Long Run Taper'),
         sesion('Long Run Corto', '45 min Z2 - ~6-7 km', 'Sin cierre intenso. Llegar fresco a la semana de carrera.'),
         ...fcRow('z2', 'z2', 'Z2', 'Base aerobica'),
         instr('45 min suave. Sin cierre. Sin gym despues.')
+      ]
+    },
+    {
+      day: 'Domingo', sessionType: 'Descanso', timeStr: 'Sin entrenar',
+      sessionAm: '', sessionPm: '',
+      exercises: [
+        { bloque: 'Descanso', ejercicio: 'Sin entrenamiento', series: '-', detalle: 'Descanso completo.', nota: '', highlight: true, color: C.rule },
+        ...domingoMob
       ]
     }
   ]
