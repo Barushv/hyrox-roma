@@ -4,9 +4,20 @@ const path = require('path')
 
 function createSVGIcon(size) {
   const r = Math.round(size * 0.15)
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
-  <rect width="${size}" height="${size}" rx="${r}" ry="${r}" fill="#185FA5"/>
-  <text x="${size/2}" y="${size*0.57}" font-family="Arial,sans-serif" font-size="${Math.round(size*0.52)}" font-weight="bold" fill="white" text-anchor="middle">H</text>
+  // Diseno: bandera italiana en diagonal (verde-blanco-rojo) + rayo de velocidad
+  // Coordenadas en un viewBox fijo 0-100 (escala automaticamente a cualquier size)
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="rr-${size}"><rect width="100" height="100" rx="15"/></clipPath>
+  </defs>
+  <g clip-path="url(#rr-${size})">
+    <rect width="100" height="100" fill="#FFFFFF"/>
+    <g transform="rotate(-45 50 50)">
+      <rect x="-80" y="-60" width="220" height="40" fill="#0B6E4F"/>
+      <rect x="-80" y="20" width="220" height="40" fill="#CE2B37"/>
+    </g>
+  </g>
+  <path d="M55,14 L41,50 L53,50 L46,86 L73,41 L59,41 Z" fill="#13315C"/>
 </svg>`
 }
 
