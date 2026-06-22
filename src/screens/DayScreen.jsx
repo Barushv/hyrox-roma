@@ -14,12 +14,37 @@ const DAY_NAMES = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábad
 
 export default function DayScreen({ weekNum, dayIndex, onBack }) {
   const { planData, activeProfileId, completedDays, toggleDayComplete, toggleExercise } = useApp()
-  const weekData = planData.weeks[weekNum - 1]
-  const dayData = weekData.days[dayIndex]
+
+  // Estado interno de navegacion - inicia con los props, pero las flechas
+  // prev/next lo mueven sin depender del componente padre.
+  const [curWeek, setCurWeek] = useState(weekNum)
+  const [curDayIdx, setCurDayIdx] = useState(dayIndex)
+
+  useEffect(() => {
+    setCurWeek(weekNum)
+    setCurDayIdx(dayIndex)
+  }, [weekNum, dayIndex])
+
+  const totalWeeks = planData.weeks.length
+  const weekData = planData.weeks[curWeek - 1]
+  const dayData = weekData.days[curDayIdx]
   const phaseColor = PHASE_COLORS[weekData.phase] || '#185FA5'
-  const dayKey = `w${weekNum}d${dayIndex}`
-  const date = getDateForWeekDay(planData.meta.startDate, weekNum - 1, dayIndex)
+  const dayKey = `w${curWeek}d${curDayIdx}`
+  const date = getDateForWeekDay(planData.meta.startDate, curWeek - 1, curDayIdx)
   const dayCompleted = completedDays[dayKey] || false
+
+  const isPrevDisabled = curWeek === 1 && curDayIdx === 0
+  const isNextDisabled = curWeek === totalWeeks && curDayIdx === 6
+
+  function goToDay(delta) {
+    let newDay = curDayIdx + delta
+    let newWeek = curWeek
+    if (newDay < 0) { newWeek -= 1; newDay = 6 }
+    if (newDay > 6) { newWeek += 1; newDay = 0 }
+    if (newWeek < 1 || newWeek > totalWeeks) return
+    setCurWeek(newWeek)
+    setCurDayIdx(newDay)
+  }
 
   const [exerciseState, setExerciseState] = useState({})
 
@@ -57,12 +82,33 @@ export default function DayScreen({ weekNum, dayIndex, onBack }) {
     <div className="pb-28">
       {/* Header */}
       <div className="text-white px-4 pt-10 pb-5" style={{ background: phaseColor }}>
-        <button onClick={onBack} className="text-sm opacity-80 mb-3 flex items-center gap-1">
-          ‹ Semana {weekNum}
+        <button onClick={() => onBack(curWeek)} className="text-sm opacity-80 mb-3 flex items-center gap-1">
+          ‹ Semana {curWeek}
         </button>
+
+        {/* Navegacion dia anterior / siguiente */}
+        <div className="flex items-center justify-between mb-1">
+          <button
+            onClick={() => goToDay(-1)}
+            disabled={isPrevDisabled}
+            className="w-7 h-7 rounded-full flex items-center justify-center text-base bg-white bg-opacity-20 active:bg-opacity-35 transition-all"
+            style={isPrevDisabled ? { opacity: 0.3 } : {}}
+          >
+            ‹
+          </button>
+          <p className="text-xs opacity-75 flex-1 text-center">{DAY_NAMES[curDayIdx]} · {formatDate(date)}</p>
+          <button
+            onClick={() => goToDay(1)}
+            disabled={isNextDisabled}
+            className="w-7 h-7 rounded-full flex items-center justify-center text-base bg-white bg-opacity-20 active:bg-opacity-35 transition-all"
+            style={isNextDisabled ? { opacity: 0.3 } : {}}
+          >
+            ›
+          </button>
+        </div>
+
         <div className="flex items-start justify-between">
           <div>
-            <p className="text-xs opacity-75">{DAY_NAMES[dayIndex]} · {formatDate(date)}</p>
             <h1 className="text-xl font-bold mt-0.5">{dayData.sessionType}</h1>
             <p className="text-xs opacity-80 mt-1">{dayData.timeStr}</p>
           </div>
